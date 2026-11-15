@@ -15,6 +15,8 @@ Cada cambio se compila automáticamente con **GitHub Actions** y se publica en
 3. Postulá usando [`fuentes-empleo.md`](fuentes-empleo.md) (sección 0 = ofertas
    activas para postular hoy) y [`perfil-bumeran.md`](perfil-bumeran.md) (contenido
    listo para pegar en Bumeran).
+4. Antes de escribir una carta, verificá el aviso con `/skill:evaluar-oferta`.
+   Si ya hay entrevista agendada, `/skill:preparar-entrevista`.
 
 ## Estructura
 
@@ -29,6 +31,7 @@ Cada cambio se compila automáticamente con **GitHub Actions** y se publica en
 | `carta_generica.typ` | Carta genérica ES (placeholders + 3 variantes según el puesto) |
 | `carta_generica_en.typ` | Carta genérica EN (ofertas remotas)        |
 | `perfil-bumeran.md`  | Contenido listo para copiar y pegar en Bumeran |
+| `entrevistas/`       | One-pagers de entrevista, uno por empresa (skill `preparar-entrevista`) |
 | `consultoras.md`    | Guía de consultoras IT: canales, programas trainee, vacantes vivas, emails reales |
 | `fuentes-empleo.md`  | Fuentes: ofertas activas, portales, trainee programs, correos de contacto |
 | `estado-busqueda.md` | Estado vivo de la búsqueda + checklist + respuestas para formularios |
@@ -37,6 +40,8 @@ Cada cambio se compila automáticamente con **GitHub Actions** y se publica en
 | `*.svg`              | Iconos (email, teléfono, GitHub, LinkedIn…)  |
 | `.pi/voice.md`       | Perfil de voz de las cartas (leer antes de redactar) |
 | `.pi/skills/humanizar-textos/` | Skill para limpiar y puntuar un texto antes de enviarlo |
+| `.pi/skills/evaluar-oferta/` | Skill para verificar un aviso antes de gastar la carta (seniority, inglés, zona, postulantes) |
+| `.pi/skills/preparar-entrevista/` | Skill para preparar una entrevista: relato, historias reales, gaps, inglés y one-pager |
 
 ## Búsqueda laboral automática
 
@@ -110,7 +115,7 @@ Cada `git push` a `main` recompila y actualiza la página automáticamente.
 | Provider | `ollama-cloud` (único autenticado) |
 | Modelo por defecto | `deepseek-v4.1-flash:1017` · 1M contexto, visión, $0.15/$0.60 por millón |
 | Extensión de subagentes | `pi-subagents` (actualizada) |
-| Skill del proyecto | `.pi/skills/humanizar-textos/` → `/skill:humanizar-textos` |
+| Skills del proyecto | `.pi/skills/humanizar-textos/` → `/skill:humanizar-textos`<br>`.pi/skills/evaluar-oferta/` → `/skill:evaluar-oferta`<br>`.pi/skills/preparar-entrevista/` → `/skill:preparar-entrevista` |
 | Perfil de voz | `.pi/voice.md` |
 
 Para volver a poner todo al día en el futuro:

@@ -15,12 +15,12 @@
 #v(1.2em)
 
 #text(size: 10pt)[
-  Buenos Aires, 16 de septiembre de 2026
+  Buenos Aires, 15 de noviembre de 2026
 
   #v(0.8em)
 
   *EY Argentina — Equipo de Talento*\
-  Ref.: EY – Junior de IT (1462251)
+  Ref.: EY – Junior de IT (998182801)
 ]
 
 #v(1.4em)
@@ -29,7 +29,7 @@ Estimados/as del equipo de Talento:
 
 #v(0.9em)
 
-Les escribo para postularme al puesto de *EY – Junior de IT* (Ref. 1462251).
+Les escribo para postularme al puesto de *EY – Junior de IT* (Ref. 998182801).
 Soy estudiante de la *Tecnicatura Universitaria en Desarrollo de Software en
 UADE* (promedio actual: 8.67), estoy buscando mi *primer empleo formal en IT* y
 quiero ser honesto sobre eso: todavía no tengo experiencia laboral en el
