@@ -62,6 +62,8 @@ _DevOps Jr / Cloud / SRE / Soporte IT · Argentina · últimos 7 días_
   https://ar.linkedin.com/jobs/view/customer-support-coach-at-cloudbeds-4482051620
 - **TTT - L2 - EY Global Delivery Services** — EY ·  · _2026-11-11_  
   https://ar.linkedin.com/jobs/view/ttt-l2-ey-global-delivery-services-at-ey-4462247430
+- **Senior IT Systems Engineer, Collaboration Tools (Google Workspace)** — Medallia ·  · _2026-11-15_  
+  https://ar.linkedin.com/jobs/view/senior-it-systems-engineer-collaboration-tools-google-workspace-at-medallia-4473391518
 - **Administrativo/a de Remisión y Facturación (REQ-2026-5012) - Permanente** — Manpower Argentina ·  · _2026-11-14_  
   https://ar.linkedin.com/jobs/view/administrativo-a-de-remisi%C3%B3n-y-facturaci%C3%B3n-req-2026-5012-permanente-at-manpower-argentina-4491204182
 - **Técnico electricista de gruas** — Manpower Argentina ·  · _2026-11-13_  
@@ -162,46 +164,3 @@ _DevOps Jr / Cloud / SRE / Soporte IT · Argentina · últimos 7 días_
   https://ar.linkedin.com/jobs/view/network-svcs-operations-lan-wlan-at-accenture-argentina-4487688013
 - **Secure Access Operations (1Badge Services) - EY Global Delivery Services** — EY ·  · _2026-11-09_  
   https://ar.linkedin.com/jobs/view/secure-access-operations-1badge-services-ey-global-delivery-services-at-ey-4487654760
-
-## Exa — boards argentinos (Bumeran, Computrabajo, etc.)
-
-- **DevOps & Cloud Infrastructure en Buenos Aires | CazVid** · _2026-11-11_  
-  https://cazvid.com/es/empleo/devops-y-cloud-infrastructure-aeaa4892
-- **Empleo como Devops engineer junior en Movii | Magneto** · _2026-11-12_  
-  https://www.magneto365.com/co/empleos/devops-engineer-junior-1136167
-- **Argentina job postings, 2 to 9 November 2026: 890 new listings on Bumeran, cities, contracts and who is hiring - DEV Community** · _2026-11-09_  
-  https://dev.to/bibian/argentina-job-postings-2-to-9-november-2026-890-new-listings-on-bumeran-cities-contracts-and-5d1n
-- **DWDM Engineer - Junior en Buenos Aires | CazVid** · _2026-11-13_  
-  https://cazvid.com/es/empleo/dwdm-engineer-junior-264d0ab9
-- **DevOps Engineer (Junior) в Omega (мережа супермаркетів VARUS), $650–750, віддалено | DOU** · _2026-11-12_  
-  https://jobs.dou.ua/companies/omega-set-varus/vacancies/266003/
-- **Cloud Support (AWS + Kafka) - Híbrido CABA en Buenos Aires | CazVid** · _2026-11-12_  
-  https://cazvid.com/es/empleo/cloud-support-aws-kafka-hibrido-caba-b1dbab9d
-- **German Posadas Torres** · _2026-11-09_  
-  https://linkedin.com/in/germanposadas
-- **Nadia Fontana** · _2026-11-10_  
-  https://linkedin.com/in/nadiafontana
-- **Application Support and Developer OT (AVEVA PI)** · _2026-11-12_  
-  https://www.accenture.com/ar-es/careers/jobdetails?id=14879857_es
-- **Agustín Oroño** · _2026-11-10_  
-  https://linkedin.com/in/agust%C3%ADn-oro%C3%B1o-72879b198
-- **Alexis Acevedo** · _2026-11-09_  
-  https://linkedin.com/in/acevedoalexis
-- **Francisco Abrate** · _2026-11-10_  
-  https://linkedin.com/in/francisco-abrate
-- **Cristian F.** · _2026-11-08_  
-  https://linkedin.com/in/cristian-fk
-- **Oscar López** · _2026-11-09_  
-  https://linkedin.com/in/oscar-nicolas-lopez
-- **Agustin Gomez** · _2026-11-08_  
-  https://linkedin.com/in/agustin-nicolas-gomez
-- **Lucas Ariel Gonzalo** · _2026-11-09_  
-  https://linkedin.com/in/lucas-ariel-gonzalo-354483173
-- **Agustin Chaparro** · _2026-11-09_  
-  https://linkedin.com/in/agustin-chaparro-58a269130
-- **Martín Zalazar** · _2026-11-09_  
-  https://linkedin.com/in/martin-zalazar
-- **Carla Parrilla Razza** · _2026-11-08_  
-  https://linkedin.com/in/carla-parrilla-razza-6a8171245
-- **Emanuel Poggio** · _2026-11-09_  
-  https://linkedin.com/in/emanuel-poggio-dev
