@@ -1,0 +1,94 @@
+# 🎯 Ofertas PRIORIZADAS para tu perfil — 2026-11-20
+_Filtradas de 1 digest(s): 8 descartadas (senior/spam), **14 para POSTULAR**, 28 para revisar_
+_Scoring: junior/trainee +5 · soporte/QA +4 · linux/dev/python +3 · devops/cloud +2 · frescura ≤2 días +2 · empresa preferida +2/3. Umbral postular: ≥7_
+
+## 🚨 POSTULAR YA (mayor fit)
+- **[11 pts] 🔥 QA AUTOMATION/ MAINFRAME JR** — Tata Consultancy Services · _2026-11-20_ 🆕 **NUEVA**
+  https://ar.linkedin.com/jobs/view/qa-automation-mainframe-jr-at-tata-consultancy-services-4492982318
+- **[11 pts] 🔥 Pasante en Calidad Zona Pilar** — Veolia · _2026-11-20_ 🆕 **NUEVA**
+  https://ar.linkedin.com/jobs/view/pasante-en-calidad-zona-pilar-at-veolia-4492526758
+- **[10 pts] 🔥 Analista de Calidad Junior** — Accusys · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/analista-de-calidad-junior-at-accusys-4490479647
+- **[10 pts] 🔥 Técnico de Postventa Jr. | Hardware y Tecnología** — Gauss Online · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/t%C3%A9cnico-de-postventa-jr-hardware-y-tecnolog%C3%ADa-at-gauss-online-4491340150
+- **[10 pts] 🔥 Analista Tester Junior** — Accusys · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/analista-tester-junior-at-accusys-4491357472
+- **[9 pts] QA Funcional de entornos Mainframe** — Baufest · _2026-11-19_ 🆕 **NUEVA**
+  https://ar.linkedin.com/jobs/view/qa-funcional-de-entornos-mainframe-at-baufest-4492443810
+- **[8 pts] Linux Support Engineer (L1–L3)** — MPS Group LLC · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/linux-support-engineer-l1%E2%80%93l3-at-mps-group-llc-4491435122
+- **[7 pts] Service Desk Agent (PORTUGUESE)** — Cognizant · _2026-11-16_
+  https://ar.linkedin.com/jobs/view/service-desk-agent-portuguese-at-cognizant-4490938882
+- **[7 pts] DevOps Engineer** — Accenture Argentina · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/devops-engineer-at-accenture-argentina-4481657173
+- **[7 pts] DevOps Engineer (Data Services & Linux) - Remote - Latin America** — FullStack · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/devops-engineer-data-services-linux-remote-latin-america-at-fullstack-4467797396
+- **[7 pts] Technical Functional Analyst Junior** — Eleven · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/technical-functional-analyst-junior-at-eleven-4492245571
+- **[7 pts] Product Operation Assistant – Junior** — Experis Argentina · _2026-11-19_ 🆕 **NUEVA**
+  https://ar.linkedin.com/jobs/view/product-operation-assistant-%E2%80%93-junior-at-experis-argentina-4492709588
+- **[7 pts] JR NETWORK ENGINEER** — Empresa Confidencial · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/jr-network-engineer-at-empresa-confidencial-4492157855
+- **[7 pts] Jr. Firmware Test Engineer** — Celero Communications · _2026-11-20_ 🆕 **NUEVA**
+  https://ar.linkedin.com/jobs/view/jr-firmware-test-engineer-at-celero-communications-4492993245
+
+## ⭐ Revisar (fit medio — postular si cumplís 60-70%)
+- **[6 pts] CloudOps (SysOps AWS)** — Accenture Argentina · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/cloudops-sysops-aws-at-accenture-argentina-4490197427
+- **[6 pts] Junior Network Engineer** — Trinetix · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/junior-network-engineer-at-trinetix-4491556430
+- **[6 pts] Core Network Junior con inglés** — Experis Argentina · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/core-network-junior-con-ingl%C3%A9s-at-experis-argentina-4491560824
+- **[6 pts] Junior Primary Data Analyst** — RWS · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/junior-primary-data-analyst-at-rws-4481884411
+- **[6 pts] Analista Sistemas. Desarrollo y QA** — Tesis IT & Automation · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/analista-sistemas-desarrollo-y-qa-at-tesis-it-automation-4492255393
+- **[6 pts] IT Support Associate - Buenos Aires** — Interlaced · _2026-11-19_ 🆕
+  https://ar.linkedin.com/jobs/view/it-support-associate-buenos-aires-at-interlaced-4492704768
+- **[6 pts] IT Support Analyst** — Coalfire · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/it-support-analyst-at-coalfire-4482583111
+- **[6 pts] Client Support Analyst** — Kainos · _2026-11-20_
+  https://ar.linkedin.com/jobs/view/client-support-analyst-at-kainos-4467954610
+- **[6 pts] Analista de Soporte al Cliente** — ADP · _2026-11-20_ 🆕
+  https://ar.linkedin.com/jobs/view/analista-de-soporte-al-cliente-at-adp-4491698320
+- **[6 pts] QA Analyst** — Bidcom · _2026-11-20_ 🆕
+  https://ar.linkedin.com/jobs/view/qa-analyst-at-bidcom-4492547387
+- **[5 pts] Data Analyst Trainee** — Digitas Argentina · _2026-11-16_
+  https://ar.linkedin.com/jobs/view/data-analyst-trainee-at-digitas-argentina-4490947626
+- **[5 pts] Service Desk** — APPLY · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/service-desk-at-apply-4491709324
+- **[5 pts] Technical Support Analyst - 100% Remote** — Influx · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/technical-support-analyst-100%25-remote-at-influx-4490481412
+- **[5 pts] Soporte téncico de Posventa** — Pullmen RRHH · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/soporte-t%C3%A9ncico-de-posventa-at-pullmen-rrhh-4491726737
+- **[5 pts] Analista de Soporte** — Grupo L · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/analista-de-soporte-at-grupo-l-4491423067
+- **[5 pts] QA Analyst / ETL Automation Tester** — CRAFTLabs · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/qa-analyst-etl-automation-tester-at-craftlabs-4471109065
+- **[5 pts] Manual QA Analyst (Cypress & Postman) - Remote Work | REF#310867** — BairesDev · _2026-11-17_
+  https://ar.linkedin.com/jobs/view/manual-qa-analyst-cypress-postman-remote-work-ref%23310867-at-bairesdev-4491705841
+- **[5 pts] Information Technology Support Specialist** — BNB - Business Network Builders · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/information-technology-support-specialist-at-bnb-business-network-builders-4492044057
+- **[5 pts] Copy Of Intake Qa Coordinator** — Tort Experts · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/copy-of-intake-qa-coordinator-at-tort-experts-4492058928
+- **[5 pts] Analista de calidad** — LOG-IN FARMA · _2026-11-18_
+  https://ar.linkedin.com/jobs/view/analista-de-calidad-at-log-in-farma-4492029335
+- **[5 pts] Analistas sistemas videocamaras Arg** — Accenture Argentina · _2026-11-19_ 🆕
+  https://ar.linkedin.com/jobs/view/analistas-sistemas-videocamaras-arg-at-accenture-argentina-4491371666
+- **[5 pts] Software Engineer Backend II** — Rappi · _2026-11-20_
+  https://ar.linkedin.com/jobs/view/software-engineer-backend-ii-at-rappi-4481020352
+- **[4 pts] Field Support** — DXC Technology · _2026-11-13_
+  https://ar.linkedin.com/jobs/view/field-support-at-dxc-technology-4489831459
+- **[4 pts] QA Manufacturing Analyst** — Nestlé · _2026-11-14_
+  https://ar.linkedin.com/jobs/view/qa-manufacturing-analyst-at-nestl%C3%A9-4491044775
+- **[4 pts] DevOps** — PAGOS360 · _2026-11-19_
+  https://ar.linkedin.com/jobs/view/devops-at-pagos360-4492250487
+- **[4 pts] Hyper-V DevOps Engineer** — JPMorganChase · _2026-11-20_ 🆕
+  https://ar.linkedin.com/jobs/view/hyper-v-devops-engineer-at-jpmorganchase-4492918331
+- **[4 pts] DevOps Engineer** — MSP Consultora RRHH · _2026-11-20_ 🆕
+  https://ar.linkedin.com/jobs/view/devops-engineer-at-msp-consultora-rrhh-4491956190
+- **[4 pts] Platform Engineer (Kubernetes) - Remote Work | REF#311108** — BairesDev · _2026-11-20_ 🆕
+  https://ar.linkedin.com/jobs/view/platform-engineer-kubernetes-remote-work-ref%23311108-at-bairesdev-4492974172
+
+---
+_Descartadas por senior/spam: 8. Ajustá el filtro editando `scripts/perfil_filtro.json`._
