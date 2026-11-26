@@ -81,13 +81,24 @@ pdfinfo cv.pdf | grep Pages                            # MUST print "Pages: 1"
 typst compile --format png --ppi 140 cv.typ /tmp/cv.png  # visual check
 ```
 
-Verification before delivering any CV: **exactly 1 page**, no bullet ending in
-a disclaimer, no duplicated fact across sections, no visible `\@` or escaped
-characters in the text layer (`pdftotext -layout cv.pdf -` shows what ATS
-parsers read).
+Verification before delivering any CV: **exactly 1 page**, **85-92 % of the
+page filled** (measure the PNG: content must not end above 80 % or below 95 %),
+no bullet ending in a disclaimer, no duplicated fact across sections, no
+visible `\@` or escaped characters in the text layer (`pdftotext -layout
+cv.pdf -` shows what ATS parsers read).
+
+Page fill is regulated in `diseno.typ` by `par-leading`, `par-spacing`,
+`list-spacing`, `section-gap` and `entry-gap` — **not** by adding filler
+bullets.
 
 ## Content rules
 
+- **One bullet = one line.** If a bullet needs a second line, cut words, not
+  the fact. A recruiter skims: density is the enemy.
+- The main experience goes first with **two** bullets; everything older gets
+  **one** bullet. Academic projects get **one** bullet; deployed projects get
+  two.
+- Short, verb-first phrases. No "con el objetivo de", no adverbs, no filler.
 - Honest and specific. Never invent tools, metrics, or responsibilities Facundo
   has not confirmed.
 - Never close a project bullet with what is missing ("testing pending",

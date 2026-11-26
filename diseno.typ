@@ -28,6 +28,15 @@
 #let note-size = 8.7pt
 #let bullet-size = 8.5pt
 
+// --- Aire entre bloques ---------------------------------------------------
+// Como el texto es corto (un bullet por línea), la página se regula acá:
+// subir `par-leading` y `section-gap` llena el aire que deja el texto.
+#let par-leading = 0.62em
+#let par-spacing = 0.62em
+#let list-spacing = 0.32em
+#let section-gap = 0.95em
+#let entry-gap = 0.42em
+
 // --- Encabezado -----------------------------------------------------------
 // links: array de pares ("Etiqueta", "https://…"), en el orden en que se ven.
 #let link-row(links) = {
@@ -56,11 +65,11 @@
 
 // --- Secciones ------------------------------------------------------------
 #let section(title, body) = {
-  v(0.6em)
+  v(section-gap)
   text(size: section-size, weight: "bold", fill: petrol, tracking: 0.08em)[#upper(title)]
   v(-0.42em)
   line(length: 100%, stroke: 0.5pt + light)
-  v(0.18em)
+  v(0.24em)
   body
 }
 
@@ -69,6 +78,7 @@
 // al margen derecho y bullets opcionales. `note` es la línea chica de abajo
 // (promedio, horas del curso, etc.).
 #let entry(title: "", subtitle: none, dates: none, link-url: none, link-label: "demo", bullets: (), note: none) = {
+  v(entry-gap)
   block(width: 100%)[
     #text(weight: "bold", fill: petrol)[#title]
     #if subtitle != none [#text(fill: gray)[ · #subtitle]]
@@ -94,7 +104,7 @@
 
 // --- Cierre ---------------------------------------------------------------
 #let footer(txt) = {
-  v(0.45em)
+  v(0.9em)
   text(size: note-size, fill: muted)[#txt]
 }
 
@@ -104,11 +114,11 @@
   set document(title: "Facundo Octavio Mello · CV", author: "Facundo Octavio Mello")
   set page(paper: "a4", margin: (x: 1.5cm, y: 1.15cm))
   set text(font: font-family, size: body-size, fill: gray, lang: "es", hyphenate: false)
-  set par(justify: false, leading: 0.53em, spacing: 0.53em)
+  set par(justify: false, leading: par-leading, spacing: par-spacing)
   set list(
     indent: 0.3em,
     body-indent: 0.25em,
-    spacing: 0.22em,
+    spacing: list-spacing,
     marker: text(fill: blue, size: bullet-size)[•],
   )
 

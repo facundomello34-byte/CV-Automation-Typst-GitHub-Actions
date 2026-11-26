@@ -1,10 +1,12 @@
 // =============================================================================
 // contenido.typ — el contenido del CV, sin nada de diseño.
 //
-// Acá vive el texto real: perfil, competencias, experiencia, proyectos y
-// educación. Las variantes (QA, soporte, desarrollo, inglés) importan este
-// archivo y eligen qué mostrar y en qué orden; no reescriben el texto ni
-// tocan el formato. Si un dato cambia, se cambia acá una sola vez.
+// Regla de redacción: un bullet = una línea, un logro concreto. La experiencia
+// principal va primero y con dos bullets; lo secundario, con uno. Si un bullet
+// no aporta evidencia, no va.
+//
+// Las variantes importan este archivo y eligen qué mostrar y en qué orden; no
+// reescriben el texto ni tocan el formato.
 // =============================================================================
 
 // --- Datos de contacto ----------------------------------------------------
@@ -19,45 +21,45 @@
 #let disponibilidad = "Disponibilidad: inmediata, coordinable con mi empleador actual · Presencial, híbrida o remota · Castelar, Buenos Aires."
 
 // --- Perfil ---------------------------------------------------------------
+// Tres frases: quién soy, qué manejo, qué busco.
 #let perfil = [
-  Estudiante de Desarrollo de Software en UADE (promedio 8.67) con experiencia
-  operativa en sistemas de gestión, soporte de primera línea y automatización de
-  tareas. Manejo Python, SQL, PostgreSQL, Linux y Git, y tengo aplicaciones propias
-  desplegadas y en uso con Next.js, React, TypeScript y Playwright.
-  Busco una posición Trainee, Junior o pasantía en desarrollo, soporte IT, QA o
-  análisis funcional. Inglés técnico: lectura de documentación.
+  Estudiante de Desarrollo de Software en UADE (promedio 8.67) con experiencia en
+  sistemas de gestión, soporte de primera línea y automatización de tareas. Manejo
+  Python, SQL, PostgreSQL, Linux y Git; tengo dos aplicaciones propias desplegadas
+  con Next.js, React y TypeScript. Busco mi primera posición Trainee o Junior en
+  desarrollo, soporte IT o QA.
 ]
 
 // --- Competencias ---------------------------------------------------------
 #let competencias = (
   (
-    "Desarrollo y bases de datos",
-    "Python, JavaScript, TypeScript, HTML/CSS, FastAPI, React, Next.js, SQL, PostgreSQL.",
+    "Desarrollo y datos",
+    "Python, JavaScript, TypeScript, React, Next.js, FastAPI, SQL, PostgreSQL.",
   ),
   (
-    "Soporte técnico y sistemas",
-    "Windows, Linux (uso diario), hardware, impresoras, redes Wi-Fi, PDA, sistemas POS (FUDO, MAXIREST), resolución de incidencias.",
+    "Soporte IT",
+    "Windows, Linux, hardware, impresoras, redes, PDA, POS (FUDO, MAXIREST), tickets.",
   ),
   (
-    "QA, análisis y automatización",
-    "Playwright, pruebas E2E, validación de datos, relevamiento de requerimientos, documentación técnica, mejora de procesos.",
+    "QA y automatización",
+    "Playwright, pruebas E2E, validación de datos, relevamiento, documentación técnica.",
   ),
   (
-    "Herramientas y tecnologías",
-    "Git/GitHub, Docker, Vercel, bash, terminal/CLI.",
+    "Herramientas",
+    "Git/GitHub, Docker, Vercel, bash.",
   ),
 )
 
 // --- Experiencia ----------------------------------------------------------
-// Campos de cada entrada: title, subtitle, dates, bullets.
+// La más relevante primero, dos bullets. Lo anterior, un bullet por puesto.
 #let experiencia = (
   (
     title: "COTO Digital (COTO CICSA)",
     subtitle: "Operador",
     dates: "Oct 2025 – presente",
     bullets: (
-      [Operé PDA y sistemas internos para impresión y control de comprobantes. Gestioné tickets operativos y el seguimiento de pedidos para sostener la continuidad de la operación.],
-      [Resolví fallas básicas de impresoras y equipos del sector para evitar cortes en la operación.],
+      [Operé PDA y sistemas internos: comprobantes, tickets y seguimiento de pedidos.],
+      [Resolví fallas de impresoras y equipos para sostener la continuidad del sector.],
     ),
   ),
   (
@@ -65,9 +67,8 @@
     subtitle: "Encargado Administrativo",
     dates: "Nov 2024 – Sep 2025",
     bullets: (
-      [Administré ventas, inventario y cierres de caja con el sistema FUDO POS.],
-      [Resolví incidencias del sistema para evitar interrupciones en la operación.],
-      [Reemplacé el registro manual de ventas, stock y cierres de caja por planillas digitales con fórmulas y validaciones, y quedó como el circuito diario del local.],
+      [Administré ventas, stock y cierres de caja con FUDO POS, y resolví sus incidencias.],
+      [Reemplacé el registro manual por planillas con fórmulas y validaciones.],
     ),
   ),
   (
@@ -75,24 +76,22 @@
     subtitle: "Soporte Operativo",
     dates: "Feb 2024 – Jul 2024",
     bullets: (
-      [Operé el sistema MAXIREST para el control de la operación y la validación de información.],
-      [Brindé asistencia técnica básica a las computadoras de los mozos y colaboré con la continuidad del servicio.],
+      [Operé MAXIREST y di asistencia técnica a las computadoras de los mozos.],
     ),
   ),
 )
 
 // --- Proyectos ------------------------------------------------------------
-// Mismas claves que experiencia + link-url / link-label para la demo pública.
+// Dos bullets para los desplegados, uno para los académicos.
 #let proyectos = (
   av: (
     title: "AVENOR",
-    subtitle: "Plataforma SaaS de automatización para comercios · Proyecto personal",
+    subtitle: "SaaS de automatización para comercios · Proyecto personal",
     dates: "2025 – presente",
     link-url: "https://avenor-software.web.app/",
     bullets: (
-      [Desarrollé una plataforma SaaS para automatizar procesos comerciales, administrativos y operativos de comercios: pedidos, inventario y tareas repetitivas.],
-      [Implementé el back-end con FastAPI y PostgreSQL —lógica de negocio, modelo de datos e integración de servicios— y el front-end con Next.js.],
-      [Stack: Python, FastAPI, PostgreSQL, Docker, JavaScript, Next.js y Playwright.],
+      [Desarrollé un SaaS de pedidos e inventario para comercios: FastAPI y PostgreSQL en el back, Next.js en el front.],
+      [Automaticé tareas repetitivas del local, con Docker para el entorno y Playwright para pruebas E2E.],
     ),
   ),
   fleetops: (
@@ -101,9 +100,8 @@
     dates: "2026",
     link-url: "https://fleetops-logistics.vercel.app",
     bullets: (
-      [Desarrollé un centro de control con mapa real de la Ciudad de Buenos Aires: cinco camiones recorriendo rutas calculadas con OSRM, con panel de vehículo, KPIs y paradas en vivo.],
-      [Separé la animación del estado de React: un único requestAnimationFrame publica posiciones a 60 fps para el mapa y una instantánea a ~9 fps para la interfaz, sin re-renderizar el panel en cada frame.],
-      [Stack: Next.js 15, React 19, TypeScript, MapLibre GL JS y Playwright (pruebas E2E).],
+      [Centro de control con mapa real de CABA: cinco camiones sobre rutas OSRM y KPIs en vivo (Next.js, React, TypeScript, MapLibre).],
+      [Saqué la animación del estado de React: 60 fps al mapa y ~9 fps a la interfaz, sin re-render del panel.],
     ),
   ),
   stock: (
@@ -111,8 +109,7 @@
     subtitle: "Proyecto académico UADE · Cafetería",
     dates: "2025",
     bullets: (
-      [Desarrollé una aplicación de gestión de inventarios en Python a partir de necesidades operativas del sector gastronómico.],
-      [Implementé estructuras de datos y lógica de negocio para administrar productos, clientes y ventas, con registro automático de movimientos y reportes de control.],
+      [App de inventario en Python: lógica de negocio, movimientos automáticos y reportes.],
     ),
   ),
   chiazza: (
@@ -120,9 +117,9 @@
     subtitle: "Análisis y diseño de gestión de stock · Proyecto integrador UADE",
     dates: "2025",
     bullets: (
-      [Analicé el control manual de materias primas y armé el diagnóstico organizacional (FODA) del proceso.],
-      [Relevé requerimientos y diseñé la propuesta de sistema (compras, consumos e inventario), con reportes y alertas de reposición por WhatsApp o Telegram. Alcance académico: diseño, sin implementación.],
+      [Relevé requerimientos y diseñé un sistema de compras, consumos e inventario con alertas automáticas.],
     ),
+    note: "Alcance académico: diseño, sin implementación.",
   ),
 )
 
