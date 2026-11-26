@@ -31,11 +31,11 @@
 // --- Aire entre bloques ---------------------------------------------------
 // Como el texto es corto (un bullet por línea), la página se regula acá:
 // subir `par-leading` y `section-gap` llena el aire que deja el texto.
-#let par-leading = 0.62em
-#let par-spacing = 0.62em
-#let list-spacing = 0.32em
-#let section-gap = 0.95em
-#let entry-gap = 0.42em
+#let par-leading = 0.72em
+#let par-spacing = 0.72em
+#let list-spacing = 0.5em
+#let section-gap = 1.75em
+#let entry-gap = 0.85em
 
 // --- Encabezado -----------------------------------------------------------
 // links: array de pares ("Etiqueta", "https://…"), en el orden en que se ven.
@@ -48,12 +48,14 @@
   out.join()
 }
 
-#let header(name: "FACUNDO OCTAVIO MELLO", headline: "", contact: "", links: (), body) = {
+#let header(name: "FACUNDO OCTAVIO MELLO", headline: none, contact: "", links: (), body) = {
   align(center)[
     #text(size: name-size, weight: "black", fill: petrol, tracking: 0.01em)[#name]
     #v(-0.22em)
-    #text(size: headline-size, weight: "medium", fill: gray)[#headline]
-    #v(-0.16em)
+    #if headline != none [
+      #text(size: headline-size, weight: "medium", fill: gray)[#headline]
+      #v(-0.16em)
+    ]
     #text(size: contact-size, fill: gray)[#contact]
     #linebreak()
     #text(size: contact-size)[#link-row(links)]
@@ -77,10 +79,18 @@
 // Una sola macro para las tres: título en negrita, subtítulo en gris, fecha
 // al margen derecho y bullets opcionales. `note` es la línea chica de abajo
 // (promedio, horas del curso, etc.).
-#let entry(title: "", subtitle: none, dates: none, link-url: none, link-label: "demo", bullets: (), note: none) = {
+#let entry(title: "", subtitle: none, dates: none, title-link: none, link-url: none, link-label: "ver", bullets: (), note: none) = {
   v(entry-gap)
+  // Un título enlazado se subraya en azul: se lee como link sin romper el diseño.
+  let title-body = if title-link == none {
+    text(weight: "bold", fill: petrol)[#title]
+  } else {
+    link(title-link)[
+      #underline(offset: 0.16em, stroke: 0.45pt + blue)[#text(weight: "bold", fill: petrol)[#title]]
+    ]
+  }
   block(width: 100%)[
-    #text(weight: "bold", fill: petrol)[#title]
+    #title-body
     #if subtitle != none [#text(fill: gray)[ · #subtitle]]
     #if link-url != none [
       #h(0.45em)
@@ -98,11 +108,12 @@
 }
 
 // Variante sin viñetas, para educación: deja la nota pegada al título.
-#let row(title: "", subtitle: none, dates: none, link-url: none, link-label: "ver", note: none) = {
+#let row(title: "", subtitle: none, dates: none, title-link: none, link-url: none, link-label: "ver", note: none) = {
   entry(
     title: title,
     subtitle: subtitle,
     dates: dates,
+    title-link: title-link,
     link-url: link-url,
     link-label: link-label,
     note: note,
@@ -117,7 +128,7 @@
 
 // --- Documento ------------------------------------------------------------
 // Uso: #show: cv.with(headline: "…", contact: "…", links: (…))
-#let cv(headline: "", contact: "", links: (), body) = {
+#let cv(headline: none, contact: "", links: (), body) = {
   set document(title: "Facundo Octavio Mello · CV", author: "Facundo Octavio Mello")
   set page(paper: "a4", margin: (x: 1.5cm, y: 1.15cm))
   set text(font: font-family, size: body-size, fill: gray, lang: "es", hyphenate: false)

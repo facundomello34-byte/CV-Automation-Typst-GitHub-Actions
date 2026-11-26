@@ -44,12 +44,9 @@ There is **exactly one** CV design: `diseno.typ`. Treat it as a design system.
 #import "../diseno.typ": *
 #import "../contenido.typ": *
 
-// 1) headline: ONE target, not four.
-#show: cv.with(
-  headline: "QA / Soporte IT · Estudiante de Desarrollo de Software",
-  contact: contacto,
-  links: links,
-)
+// 1) headline is OPTIONAL and empty in the base CV: Facundo does not want to
+//    lock himself to a role. Only a variant aimed at one posting may set it.
+#show: cv.with(contact: contacto, links: links)
 
 // 2) profile: rewrite 2-3 lines against the posting's wording.
 #section("Perfil")[#perfil]
@@ -63,7 +60,7 @@ There is **exactly one** CV design: `diseno.typ`. Treat it as a design system.
 
 // 3) projects: pick and order. Two is the sweet spot.
 #section("Proyectos")[
-  #for key in ("fleetops", "av") { entry(..proyectos.at(key)) }
+  #for key in ("fleetops", "av") { entry(..proyectos.at(key)) }  // at most two
 ]
 
 #footer(disponibilidad)
@@ -109,7 +106,9 @@ bullets.
   "en curso"** until the classes actually start.
 - Dates: always `Mon YYYY – presente` or a plain year. Never leave a project
   without a date.
-- A deployed project always links its public demo (`link-url`).
+- Only deployed projects go in, and **at most two**: `title-link` turns the
+  project title into the underlined link. There is no separate "demo" label.
+- Academic or unfinished projects stay out unless Facundo asks for them.
 - Do not list a project before it is finished.
 
 ## Legacy — do NOT copy their design
