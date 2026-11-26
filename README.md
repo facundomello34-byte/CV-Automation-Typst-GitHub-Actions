@@ -22,11 +22,15 @@ Cada cambio se compila automáticamente con **GitHub Actions** y se publica en
 
 | Archivo              | Para qué sirve                                |
 | -------------------- | --------------------------------------------- |
-| `data_es.typ`        | Datos del CV en español (editá acá)           |
-| `data_en.typ`        | Datos del CV en inglés (editá acá)            |
-| `template.typ`       | Plantilla de diseño (no hace falta tocarla)  |
-| `cv_es.typ`          | Genera `cv_es.pdf`                            |
-| `cv_en.typ`          | Genera `cv_en.pdf`                            |
+| `diseno.typ`         | **La única interfaz**: tipografía, colores, márgenes y macros de sección. No se duplica. |
+| `contenido.typ`      | **El contenido**: perfil, competencias, experiencia, proyectos, educación. Se edita acá. |
+| `cv.typ`             | CV base: arma el documento completo. Es el archivo que se copia para una variante. |
+| `AGENTS.md`          | Reglas para el agente (inglés): una sola interfaz, cómo hacer una variante, cómo verificar. |
+| `data_es.typ`        | ⚠️ Legado: datos del CV serif publicado en Pages |
+| `data_en.typ`        | ⚠️ Legado: datos del CV serif en inglés |
+| `template.typ`       | ⚠️ Legado: plantilla serif original (typst-cv) |
+| `cv_es.typ`          | ⚠️ Legado: genera `cv_es.pdf` (sitio en Pages) |
+| `cv_en.typ`          | ⚠️ Legado: genera `cv_en.pdf` (sitio en Pages) |
 | `carta_ey.typ`       | Carta de presentación específica para EY      |
 | `carta_generica.typ` | Carta genérica ES (placeholders + 3 variantes según el puesto) |
 | `carta_generica_en.typ` | Carta genérica EN (ofertas remotas)        |
@@ -56,28 +60,45 @@ Genera `reports/jobs-latest.md` con ofertas junior (DevOps, Cloud, SRE, Soporte
 IT) de LinkedIn y boards argentinos (Bumeran, Computrabajo, etc.). Otras
 búsquedas (QA, trainee, dev) se hacen con la skill web-search en la sesión.
 
-## Editar el CV
+## Una sola interfaz
 
-Abrí `data_es.typ` (y `data_en.typ`) y cambiá lo que necesites:
+El CV tiene **un solo diseño**: el del CV "IT" del 11/11/2026 (Lato, azul
+petróleo, una columna, sin foto). Vive entero en `diseno.typ`.
 
-- **Datos de contacto**: `email`, `phone`, `github`, `linkedin`.
-  Hoy LinkedIn está comentado porque no agregaste tu perfil todavía;
-  descomentá esa línea y completala con tu usuario real.
-- **Secciones**: `self` (perfil), `tech` (habilidades), `experience`,
-  `projects`, `edu`.
-- Para agregar o quitar secciones, editá `cv_es.typ` / `cv_en.typ`.
+Antes había tres interfaces conviviendo —`template.typ` (serif), el master
+Lato y los CV de Roemmers en sans 9,8pt sin color— y cada postulación nacía de
+copiar un `.typ` y retocar el formato. Eso se terminó: ahora una variante es
+**contenido + 10 líneas**, y si algo no entra o no se lee, se corrige una sola
+vez en `diseno.typ`.
+
+```bash
+typst compile cv.typ                    # CV base → cv.pdf
+pdfinfo cv.pdf | grep Pages            # tiene que decir "Pages: 1"
+```
+
+Para una variante: copiá las 10 líneas de ejemplo de `AGENTS.md`, sección
+*Creating a tailored CV*, y cambiá solo `headline`, el párrafo de perfil, qué
+proyectos entran y en qué orden.
+
+Reglas de contenido que no se negocian:
+
+- Un proyecto sin terminar o sin desplegar no entra.
+- Ningún bullet cierra con lo que falta ("quedan pendientes el testing y el despliegue").
+- Un dato no se repite en dos secciones.
+- Inglés: "lectura de documentación", sin fechas y sin "en curso".
 
 ## Compilar en tu máquina
 
 ```bash
-typst compile cv_es.typ   # genera cv_es.pdf
-typst compile cv_en.typ   # genera cv_en.pdf
+typst compile cv.typ      # CV base (diseño vigente)
+typst compile cv_es.typ   # CV serif del sitio en Pages (legado)
+typst compile cv_en.typ   # CV serif en inglés del sitio (legado)
 ```
 
 O para ver el resultado en vivo:
 
 ```bash
-typst watch cv_es.typ
+typst watch cv.typ
 ```
 
 ## Publicar en tu GitHub
