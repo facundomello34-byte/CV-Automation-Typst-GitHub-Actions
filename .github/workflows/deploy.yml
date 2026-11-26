@@ -25,14 +25,13 @@ jobs:
         uses: lvignoli/typst-action@main
         with:
           source_file: |
-            cv_es.typ
-            cv_en.typ
+            cv.typ
 
       - name: Prepare site (landing page + PDFs)
         shell: bash
         run: |
           mkdir -p _site/certificados
-          cp cv_es.pdf cv_en.pdf _site/
+          cp cv.pdf _site/cv.pdf
           cp certificados/*.pdf _site/certificados/
           cat > _site/index.html <<'EOF'
           <!DOCTYPE html>
@@ -69,8 +68,7 @@ jobs:
               <h1>Facundo Octavio Mello</h1>
               <p class="sub">Estudiante de Desarrollo de Software · QA · Soporte IT</p>
               <ul>
-                <li><a class="btn" href="cv_es.pdf">📄 CV en español</a></li>
-                <li><a class="btn" href="cv_en.pdf">📄 CV in English</a></li>
+                <li><a class="btn" href="cv.pdf">📄 CV</a></li>
                 <li><a class="btn" href="certificados/ciberseguridad-santander-open-academy.pdf">🎓 Certificado</a></li>
               </ul>
               <p class="foot">

@@ -25,6 +25,7 @@ Cada cambio se compila automáticamente con **GitHub Actions** y se publica en
 | `diseno.typ`         | **La única interfaz**: tipografía, colores, márgenes y macros de sección. No se duplica. |
 | `contenido.typ`      | **El contenido**: perfil, competencias, experiencia, proyectos, educación. Se edita acá. |
 | `cv.typ`             | CV base: arma el documento completo. Es el archivo que se copia para una variante. |
+| `perfil-linkedin.md` | Contenido vigente del perfil de LinkedIn (titular, Acerca de, experiencia, aptitudes). |
 | `AGENTS.md`          | Reglas para el agente (inglés): una sola interfaz, cómo hacer una variante, cómo verificar. |
 | `data_es.typ`        | ⚠️ Legado: datos del CV serif publicado en Pages |
 | `data_en.typ`        | ⚠️ Legado: datos del CV serif en inglés |
