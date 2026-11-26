@@ -98,8 +98,15 @@
 }
 
 // Variante sin viñetas, para educación: deja la nota pegada al título.
-#let row(title: "", subtitle: none, dates: none, note: none) = {
-  entry(title: title, subtitle: subtitle, dates: dates, note: note)
+#let row(title: "", subtitle: none, dates: none, link-url: none, link-label: "ver", note: none) = {
+  entry(
+    title: title,
+    subtitle: subtitle,
+    dates: dates,
+    link-url: link-url,
+    link-label: link-label,
+    note: note,
+  )
 }
 
 // --- Cierre ---------------------------------------------------------------

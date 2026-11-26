@@ -2,3 +2,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# El certificado se publica en Pages para poder enlazarlo desde el CV
+!certificados/*.pdf

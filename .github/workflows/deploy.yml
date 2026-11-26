@@ -31,8 +31,9 @@ jobs:
       - name: Prepare site (landing page + PDFs)
         shell: bash
         run: |
-          mkdir -p _site
+          mkdir -p _site/certificados
           cp cv_es.pdf cv_en.pdf _site/
+          cp certificados/*.pdf _site/certificados/
           cat > _site/index.html <<'EOF'
           <!DOCTYPE html>
           <html lang="es">
@@ -70,6 +71,7 @@ jobs:
               <ul>
                 <li><a class="btn" href="cv_es.pdf">📄 CV en español</a></li>
                 <li><a class="btn" href="cv_en.pdf">📄 CV in English</a></li>
+                <li><a class="btn" href="certificados/ciberseguridad-santander-open-academy.pdf">🎓 Certificado</a></li>
               </ul>
               <p class="foot">
                 Actualizado automáticamente con GitHub Actions ·
