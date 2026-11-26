@@ -119,12 +119,13 @@ Después, una vez:
 
 1. Entrá a **repo → Settings → Pages**.
 2. En *Source* elegí **GitHub Actions** (el workflow ya está configurado).
-3. Tu CV va a quedar en: `https://facundomello34-byte.github.io/cv/`
+3. Tu CV va a quedar en: `https://facundomello34-byte.github.io/CV-Automation-Typst-GitHub-Actions/`
 
 Cada `git push` a `main` recompila y actualiza la página automáticamente.
 
-> Si querés que la URL sea más corta (`https://facundomello34-byte.github.io`),
-> nombrá el repo `facundomello34-byte.github.io` en vez de `cv`.
+> URL vigente: `https://facundomello34-byte.github.io/CV-Automation-Typst-GitHub-Actions/`
+> (`certificados/ciberseguridad-santander-open-academy.pdf` cuelga de ahí).
+> Para acortarla, habría que renombrar el repo.
 
 ---
 

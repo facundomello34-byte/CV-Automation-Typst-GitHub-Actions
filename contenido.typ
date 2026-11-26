@@ -142,7 +142,7 @@
     title: "Fundamentos de Ciberseguridad",
     subtitle: "Santander Open Academy · contenido de IBM",
     dates: "Ago 2026",
-    link-url: "https://facundomello34-byte.github.io/cv/certificados/ciberseguridad-santander-open-academy.pdf",
+    link-url: "https://facundomello34-byte.github.io/CV-Automation-Typst-GitHub-Actions/certificados/ciberseguridad-santander-open-academy.pdf",
     link-label: "certificado",
     note: "1.5 h · N.º de serie OA-2026-0814003065713.",
   ),
